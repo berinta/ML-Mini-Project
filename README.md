@@ -28,8 +28,8 @@ Linear Regression
 ### Predictors: 
 athletes, prev_medals
 ### Training:
-''' from sklearn.linear_model import LinearRegression'
-reg = LinearRegression()
-reg.fit(train[predictors]
-train["medals"]) '''
+    from sklearn.linear_model import LinearRegression'
+    reg = LinearRegression()
+    reg.fit(train[predictors]
+    train["medals"]) '''
 
