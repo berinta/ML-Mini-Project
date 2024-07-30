@@ -1,4 +1,6 @@
+<p align="center">
 # **Predicting Olympic medals**
+</p>
 # Hypothesis
 Predicting the number of medals a country will win at the Olympics using historical data.
 # Data
@@ -38,16 +40,16 @@ athletes, prev_medals
 ### Mean Absolute Error: 3.30
 # Results
 - The model performs well for countries with high medal counts.
-### - USA Prediction: 
-2016 prediction was close to actual (264 vs. 235.57)
-### - India Prediction: 
-Overestimated in 2016 (2 actual vs. 11.68 predicted).
+### USA Prediction: 
+- 2016 prediction was close to actual (264 vs. 235.57)
+### India Prediction: 
+- Overestimated in 2016 (2 actual vs. 11.68 predicted).
 # Next Steps
 ### Additional Features: 
-Include height, number of years competing.
+- Include height, number of years competing.
 ### Athlete-Level Analysis: 
-Utilize detailed athlete data.
+- Utilize detailed athlete data.
 ### Improved Modelling: 
-Focus on low medal count countries with event-specific models.
+- Focus on low medal count countries with event-specific models.
 # Conclusion
 The model effectively predicts medal counts for high-performing countries. Further refinem must needed for countries with low medals. 
