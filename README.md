@@ -1,1 +1,2 @@
-# Predicting Olympic medals
+  # **Predicting Olympic medals**
+## Hypothesis
