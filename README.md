@@ -32,4 +32,23 @@ athletes, prev_medals
     reg = LinearRegression()
     reg.fit(train[predictors]
     train["medals"]) '''
-
+# Predictions and Evaluation
+## Predictions:
+    predictions = reg.predict(test[predictors])
+    test["predictions"] = predictions.clip(min=0).round()
+### Mean Absolute Error: 3.30
+# Results
+The model performs well for countries with high medal counts.
+### USA Prediction: 
+2016 prediction was close to actual (264 vs. 235.57)
+### India Prediction: 
+Overestimated in 2016 (2 actual vs. 11.68 predicted).
+# Next Steps
+### Additional Features: 
+Include height, number of years competing.
+### Athlete-Level Analysis: 
+Utilize detailed athlete data.
+### Improved Modelling: 
+Focus on low medal count countries with event-specific models.
+# Conclusion
+The model effectively predicts medal counts for high-performing countries. Further refinem must needed for countries with low medals. 
