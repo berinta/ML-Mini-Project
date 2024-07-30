@@ -3,10 +3,10 @@
 Predicting the number of medals a country will win at the Olympics using historical data.
 # Data
 ## Dataset: Historical data of Olympic medals won by countries.
-Key Features :
-👉 Number of athletes (athletes)
-◦ Average age of athletes (age)
-◦ Previous medals won (prev_medals)
+### Key Features :
+- Number of athletes (athletes)
+- Average age of athletes (age)
+- Previous medals won (prev_medals)
 ## Data Preprocessing
 ### 1. Loaded Data: 
 Data was loaded into a pandas DataFrame.
